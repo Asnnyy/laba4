@@ -12,7 +12,7 @@ def delen():
         pc = int(input("Введите Ваше число"))
         print(c // pc)
     except(ValueError, ZeroDivisionError):
-        print("Ощибка! a = " + str(c))
+        print("Ошибка! a = " + str(c))
 delen()
 
 def date():
